@@ -1,0 +1,17 @@
+html,body,#root,.container{
+  width: 100%;
+  height:100%;
+  font-family: 'Slash';
+}
+
+@font-face {
+  font-family: 'Slash';
+  src: url('https://occc3ev3l.qnssl.com//11/Slash.eot');
+  src: url('https://occc3ev3l.qnssl.com//11/Slash.woff2') format('woff2'),
+       url('https://occc3ev3l.qnssl.com//11/Slash.woff') format('woff'),
+       url('https://occc3ev3l.qnssl.com//11/Slash.ttf') format('truetype'),
+       url('https://occc3ev3l.qnssl.com//11/Slash.svg#Slash') format('svg'),
+       url('https://occc3ev3l.qnssl.com//11/Slash.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

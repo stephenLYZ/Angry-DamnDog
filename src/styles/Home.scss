@@ -1,0 +1,139 @@
+.Home{
+  background-color: #DF4642;
+  width:100%;
+  height:100%;
+
+  .animation{
+    position: relative;
+  }
+  .boy{
+    background: url('https://occc3ev3l.qnssl.com//11/boy.png') no-repeat;
+    background-size: 100% 100%;
+    width: 19%;
+    padding: 22% 0;
+    float:left;
+    margin-top:30%;
+    animation: boymove 1s linear;
+    -webkit-animation: boymove 1s linear;
+  }
+  .girl{
+    background: url('https://occc3ev3l.qnssl.com//11/girl.png') no-repeat;
+    background-size: 100% 100%;
+    width: 19%;
+    padding: 26% 0;
+    float: right;
+    margin-top:30%;
+    animation: girlmove 1s linear;
+    -webkit-animation: girlmove 1s linear;
+  }
+  .title{
+    background: url('https://occc3ev3l.qnssl.com//11/title-1.png') no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 78%;
+    left: 50%;
+    padding: 37% 0;
+    transform: translate(-52%,10%);
+    animation: down 1.5s linear;
+    -webkit-animation: down 1.5s linear;
+  }
+  .singleButton{
+    top:70%;
+    left:50%;
+    transform: translateX(-50%);
+    position: absolute;
+    width: 70%;
+    background: url('https://occc3ev3l.qnssl.com//11/single.png') no-repeat;
+    background-size: 100% 100%;
+    padding: 11% 0;
+  }
+
+}
+
+@keyframes boymove {
+   0%{
+     transform: translateX(-100%);
+   }
+   100%{
+     transform: translateX(0);
+   }
+}
+
+@-webkit-keyframes boymove {
+   0%{
+     transform: translateX(-100%);
+   }
+   100%{
+     transform: translateX(0);
+   }
+}
+
+@keyframes girlmove {
+   0%{
+     transform: translateX(100%);
+   }
+   100%{
+     transform: translateX(0);
+   }
+}
+
+@-webkit-keyframes girlmove {
+   0%{
+     transform: translateX(100%);
+   }
+   100%{
+     transform: translateX(0);
+   }
+}
+@keyframes down {
+  0%{
+    transform: translate(-52%,-250%);
+  }
+  65%{
+    transform: translate(-52%,10%);
+  }
+  70%{
+    transform: translate(-52%,7%);
+  }
+  75%{
+    transform: translate(-52%,10%);
+  }
+  80%{
+    transform: translate(-52%,8%);
+  }
+  85%{
+    transform: translate(-52%,10%);
+  }
+  90%{
+    transform: translate(-52%,9%);
+  }
+  100%{
+    transform: translate(-52%,10%);
+  }
+}
+@-webkit-keyframes down {
+  0%{
+    transform: translate(-52%,-250%);
+  }
+  65%{
+    transform: translate(-52%,10%);
+  }
+  70%{
+    transform: translate(-52%,7%);
+  }
+  75%{
+    transform: translate(-52%,10%);
+  }
+  80%{
+    transform: translate(-52%,8%);
+  }
+  85%{
+    transform: translate(-52%,10%);
+  }
+  90%{
+    transform: translate(-52%,9%);
+  }
+  100%{
+    transform: translate(-52%,10%);
+  }
+}

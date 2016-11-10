@@ -1,0 +1,165 @@
+.game-board{
+  height:100%;
+  background: url('https://occc3ev3l.qnssl.com//11/background.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+// TopBoard
+.time{
+  display: inline-block;
+  background: url('https://occc3ev3l.qnssl.com//11/time.png') no-repeat;
+  background-size: 100% 100%;
+  width: 55px;
+  height: 55px;
+  color: #fec300;
+  text-align: center;
+  line-height: 60px;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-left:20px;
+}
+
+.score{
+  display: inline-block;
+  font-size:28px;
+  color: #ede8bf;
+  margin-left: 50px;
+}
+
+// Board
+.board{
+  margin-top: 20%;
+}
+.hide{
+  display: none;
+}
+.hole{
+  background: url('https://occc3ev3l.qnssl.com//11/hole.png') no-repeat;
+  position: relative;
+  background-size: 100% 100%;
+  width:22%;
+  height: 55px;
+  margin: 30px 5.5%;
+  display: inline-block;
+}
+.guy{
+  position: absolute;
+  top: -100%;
+  left: -10%;
+  width: 120%;
+  display: none;
+}
+.pop-out{
+  display:block;
+  animation: popOut 1s ease-out;
+  -webkit-animation: popOut 0.5s ease-out;
+}
+.guy-hit{
+  display: block;
+  animation: flicker 0.5s ease-out;
+  -webkit-animation: flicker 0.5s ease-out;
+}
+@keyframes popOut {
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 0.25;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  75%{
+    opacity: 0.75;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@-webkit-keyframes popOut {
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 0.25;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  75%{
+    opacity: 0.75;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@-webkit-keyframes flicker {
+  0% {
+      background-color: #ff3867;
+  }
+  10% {
+      background-color: #ffffff;
+  }
+  20% {
+      background-color: #ff3867;
+  }
+  30% {
+      background-color: #ffffff;
+  }
+  40% {
+      background-color: #ff3867;
+  }
+  50% {
+      background-color: #ffffff;
+  }
+  60% {
+      background-color: #ff3867;
+  }
+  70% {
+      background-color: #ffffff;
+  }
+  80% {
+      background-color: #ff3867;
+  }
+  90% {
+      background-color: #ffffff;
+  }
+  100% {
+      background-color: #ffffff;
+  }
+}
+@keyframes flicker {
+  0% {
+      background-color: #ff3867;
+  }
+  10% {
+      background-color: #ffffff;
+  }
+  20% {
+      background-color: #ff3867;
+  }
+  30% {
+      background-color: #ffffff;
+  }
+  40% {
+      background-color: #ff3867;
+  }
+  50% {
+      background-color: #ffffff;
+  }
+  60% {
+      background-color: #ff3867;
+  }
+  70% {
+      background-color: #ffffff;
+  }
+  80% {
+      background-color: #ff3867;
+  }
+  90% {
+      background-color: #ffffff;
+  }
+  100% {
+      background-color: #ffffff;
+  }
+}
